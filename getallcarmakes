@@ -1,0 +1,15 @@
+Command:
+curl -i -sS -X GET "https://payaldube24-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/djangoapp/get_cars"
+
+Output:
+HTTP/2 200 
+date: Sun, 11 Oct 2026 17:11:07 GMT
+content-type: application/json
+content-length: 681
+x-powered-by: Express
+referrer-policy: same-origin
+cross-origin-opener-policy: same-origin
+set-cookie: jhub-reverse-tool-proxy=s%3Ab2deedff-1cbc-4c1e-aea2-4f02459b740c.VDKwA%2BcFCjQXyLh38nvxUf7kqYl57FeKfvwT8KrDyEc; Domain=.cognitiveclass.ai; Path=/; Expires=Mon, 12 Oct 2026 16:33:37 GMT; HttpOnly; Secure; SameSite=Lax
+strict-transport-security: max-age=31536000; includeSubDomains
+
+{"CarModels": [{"CarModel": "Pathfinder", "CarMake": "NISSAN"}, {"CarModel": "Qashqai", "CarMake": "NISSAN"}, {"CarModel": "XTRAIL", "CarMake": "NISSAN"}, {"CarModel": "A-Class", "CarMake": "Mercedes"}, {"CarModel": "C-Class", "CarMake": "Mercedes"}, {"CarModel": "E-Class", "CarMake": "Mercedes"}, {"CarModel": "A4", "CarMake": "Audi"}, {"CarModel": "A5", "CarMake": "Audi"}, {"CarModel": "A6", "CarMake": "Audi"}, {"CarModel": "Sorrento", "CarMake": "Kia"}, {"CarModel": "Carnival", "CarMake": "Kia"}, {"CarModel": "Cerato", "CarMake": "Kia"}, {"CarModel": "Corolla", "CarMake": "Toyota"}, {"CarModel": "Camry", "CarMake": "Toyota"}, {"CarModel": "Kluger", "CarMake": "Toyota"}]}
